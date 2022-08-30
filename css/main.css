@@ -20,7 +20,10 @@ h1 {
     border-bottom: 1px solid whitesmoke;
     width: 100%;
     z-index: 10;
+}
 
+.header {
+    background-color: white;
 }
 
 .container {
@@ -488,3 +491,111 @@ h1 {
     transition-duration: .8s;
 }
 /*------------------End Works-----------------------------*/
+
+/*------------------Start footer-----------------------------*/
+
+footer {
+    position: relative;
+    background: url("../img/foo3.jpg") center center no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.footer-item {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+}
+
+.footer-item-child {
+    width: 50%;
+}
+
+.footer-navbar {
+    display: flex;
+    justify-content:start;
+
+}
+
+.footer-menu {
+    flex-basis: 35%;
+}
+
+.footer-menu-list , .footer-social-list{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu-list li , .footer-social-list li {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.footer-menu-list li a, .footer-social-list li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer-contact-form h2 {
+    margin-top: 0;
+    color: white;
+    font-size: 30px;
+}
+
+.footer-contact-form .contact-form input, .contact-form textarea {
+    width: 80%;
+    padding: 15px 10px ;
+    margin-bottom: 20px;
+    background: rgba(0,0,0,.25);
+    color: #a6a7aa;
+    border: none;
+
+}
+
+.contact-form textarea {
+    margin-bottom: 30px;
+}
+
+.footer-contact-form .contact-form input:focus-visible, .footer-contact-form .contact-form input:focus,.contact-form textarea:focus {
+    outline: none;
+}
+
+.contact-form-submit {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 15px 30px;
+    background-color: #17bed2;
+    border: none;
+    color: white;
+}
+
+.contact-form-submit:hover {
+    background: #63cbd7;
+}
+
+.footer-content {
+    height: 100px;
+    border-top: 1px solid white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
+
+.footer-content-item {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-author {
+    color: white;
+}
+.footer-author a {
+    text-decoration: none;
+    color: #17bed2;
+    font-size: 16px;
+    font-weight: 700;
+}
+/*------------------End footer-----------------------------*/
